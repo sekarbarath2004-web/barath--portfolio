@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Barath S, a passionate Java Developer and Backend Engineer. Explore my education, skills, projects, and contact details.">
+    <meta name="keywords" content="Barath S, Java Developer, Backend Developer, Web Developer, Joseph College of Arts and Science, Leaf Disease Detection System">
+    <meta name="author" content="Barath S">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Barath S | Java Developer Portfolio">
+    <meta property="og:description" content="Passionate Java Developer seeking opportunities to build reliable backend applications. Check out my projects and skills.">
+    <meta property="og:image" content="assets/profile.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Barath S | Java Developer Portfolio">
+    <meta property="twitter:description" content="Passionate Java Developer seeking opportunities to build reliable backend applications. Check out my projects and skills.">
+    <meta property="twitter:image" content="assets/profile.png">
+
+    <title>Barath S | Java Developer Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">&lt;Bk&gt;</span>
+                <span class="logo-text">Barath S</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Theme Toggle Button -->
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                    <!-- Sun Icon (Light Mode) -->
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+                    <!-- Moon Icon (Dark Mode) -->
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+                </button>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Open Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge reveal">Hello Iam 👋</div>
+                    <h1 class="hero-name reveal">Barath S</h1>
+                    <h2 class="hero-title reveal">Java Developer | Backend Developer | Web Developer</h2>
+                    <p class="hero-description reveal">
+                        Passionate Java Developer seeking opportunities to build reliable backend applications and grow as a software professional.
+                    </p>
+                    <div class="hero-ctas reveal">
+                        <a href="assets/resume.pdf" class="btn btn-primary" download="Barath_S_Resume.pdf">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                            Download Resume
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">View Projects</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper reveal">
+                    <div class="profile-card-decor"></div>
+                    <div class="profile-card">
+                        <img src="./assets/profile.jpg" alt="Barath S Portrait" class="profile-img">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about" aria-label="Scroll Down">
+                    <span class="mouse">
+                        <span class="wheel"></span>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Me Section & Career Objective -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">&lt;about-me&gt;</span>
+                    <h2>About Me</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card glass-card reveal">
+                        <h3 class="card-subtitle">Personal Bio</h3>
+                        <p class="about-text">
+                            Recent Bachelor of Computer Applications graduate with strong interest in Java Development and Backend Technologies. Passionate about problem solving, software development, and continuous learning.
+                        </p>
+                        <div class="objective-box">
+                            <div class="objective-header">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                                <h4>Career Objective</h4>
+                            </div>
+                            <p class="objective-text">
+                                "Looking for an opportunity to work as a Backend Developer where I can develop reliable server-side applications and grow as a software professional."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-details reveal">
+                        <div class="info-grid">
+                            <div class="info-item glass-card">
+                                <span class="info-label">Degree</span>
+                                <span class="info-value">BCA (Joseph arts & science College)</span>
+                            </div>
+                            <div class="info-item glass-card">
+                                <span class="info-label">Specialization</span>
+                                <span class="info-value">Java & Backend Development</span>
+                            </div>
+                            <div class="info-item glass-card">
+                                <span class="info-label">Location</span>
+                                <span class="info-value">Villupuram, TN, India</span>
+                            </div>
+                            <div class="info-item glass-card">
+                                <span class="info-label">Email</span>
+                                <span class="info-value text-small">sekarbarath2004@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">&lt;education&gt;</span>
+                    <h2>Education Timeline</h2>
+                </div>
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+                    
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-date">2022 - 2025</div>
+                            <h3 class="timeline-title">Bachelor of Computer Applications (BCA)</h3>
+                            <p class="timeline-school">Joseph College of Arts and Science</p>
+                            <div class="timeline-grade">
+                                <span class="grade-label">Result:</span>
+                                <span class="grade-value">CGPA 6.5</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-date">2021 - 2022</div>
+                            <h3 class="timeline-title">Higher Secondary Certificate (HSC)</h3>
+                            <p class="timeline-school">GHS School Keelperumpakkam</p>
+                            <div class="timeline-grade">
+                                <span class="grade-label">Result:</span>
+                                <span class="grade-value">59%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-date">2017 - 2020</div>
+                            <h3 class="timeline-title">Secondary School Leaving Certificate (SSLC)</h3>
+                            <p class="timeline-school">Tagore Matriculation School</p>
+                            <div class="timeline-grade">
+                                <span class="grade-label">Result:</span>
+                                <span class="grade-value">70.4%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">&lt;skills&gt;</span>
+                    <h2>My Skillset</h2>
+                </div>
+                <div class="skills-grid">
+                    <!-- Tech Skills -->
+                    <div class="skills-card glass-card reveal">
+                        <h3 class="skills-category-title">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                            Technical Skills
+                        </h3>
+                        <div class="skills-list">
+                            <!-- Skill 1 -->
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Core Java</span>
+                                    <span class="skill-percent" data-target="80">0%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" style="width: 0%;"></div>
+                                </div>
+                            </div>
+                            <!-- Skill 2 -->
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML</span>
+                                    <span class="skill-percent" data-target="85">0%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" style="width: 0%;"></div>
+                                </div>
+                            </div>
+                            <!-- Skill 3 -->
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS</span>
+                                    <span class="skill-percent" data-target="75">0%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" style="width: 0%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="skills-card glass-card reveal">
+                        <h3 class="skills-category-title">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+                            Tools & Technologies
+                        </h3>
+                        <div class="tools-grid">
+                            <div class="tool-badge glass-card">
+                                <span class="tool-icon ms-word">W</span>
+                                <span class="tool-name">MS Word</span>
+                            </div>
+                            <div class="tool-badge glass-card">
+                                <span class="tool-icon ms-excel">X</span>
+                                <span class="tool-name">MS Excel</span>
+                            </div>
+                            <div class="tool-badge glass-card">
+                                <span class="tool-icon ms-powerpoint">P</span>
+                                <span class="tool-name">MS PowerPoint</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="skills-card glass-card reveal">
+                        <h3 class="skills-category-title">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            Soft Skills
+                        </h3>
+                        <div class="soft-skills-grid">
+                            <div class="soft-skill-item">
+                                <div class="soft-skill-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                                </div>
+                                <span class="soft-skill-name">Leadership</span>
+                            </div>
+                            <div class="soft-skill-item">
+                                <div class="soft-skill-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                                </div>
+                                <span class="soft-skill-name">Team Work</span>
+                            </div>
+                            <div class="soft-skill-item">
+                                <div class="soft-skill-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9.09 9 1-1a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                                </div>
+                                <span class="soft-skill-name">Problem Solving</span>
+                            </div>
+                            <div class="soft-skill-item">
+                                <div class="soft-skill-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22v-9"/><path d="M12 7V2"/><path d="m17 17-5-5-5 5"/></svg>
+                                </div>
+                                <span class="soft-skill-name">Mentorship</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">&lt;projects&gt;</span>
+                    <h2>Featured Project</h2>
+                </div>
+                <div class="project-wrapper reveal">
+                    <div class="project-showcase glass-card">
+                        <div class="project-image-area">
+                            <img src="assets/project-leaf.png" alt="Leaf Disease Detection System Showcase" class="project-image">
+                            <div class="project-overlay-glow"></div>
+                        </div>
+                        <div class="project-content-area">
+                            <div class="project-badge">Academic Project</div>
+                            <h3 class="project-title">Leaf Disease Detection System</h3>
+                            
+                            <div class="project-tech-badges">
+                                <span class="badge badge-python">Python</span>
+                                <span class="badge badge-html">HTML</span>
+                                <span class="badge badge-css">CSS</span>
+                                <span class="badge badge-js">JavaScript</span>
+                            </div>
+
+                            <ul class="project-description-list">
+                                <li>Developed a web-based leaf disease detection system to identify plant diseases from leaf images.</li>
+                                <li>Implemented image processing techniques for analyzing leaf patterns and detecting diseases.</li>
+                                <li>Designed a responsive and user-friendly interface for image upload and result display.</li>
+                                <li>Improved efficiency in early plant disease identification.</li>
+                            </ul>
+
+                            <div class="project-links">
+                                <a href="https://github.com/sekarbarath2004-web" target="_blank" rel="noopener noreferrer" class="btn btn-secondary flex-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                                    GitHub Repo
+                                </a>
+                                <a href="#" onclick="alert('Simulation: Open Live Demo of Leaf Disease Detection application.'); return false;" class="btn btn-primary flex-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">&lt;contact&gt;</span>
+                    <h2>Get in Touch</h2>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Contact Information -->
+                    <div class="contact-info-card glass-card reveal">
+                        <h3>Let's Connect</h3>
+                        <p class="contact-intro">
+                            Have an opportunity or want to collaborate? Feel free to reach out to me! I'm always open to discussing new software development roles and backend projects.
+                        </p>
+                        
+                        <div class="contact-methods">
+                            <!-- Phone -->
+                            <a href="tel:6383027552" class="contact-method-item">
+                                <div class="contact-icon-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label">Call Me</span>
+                                    <span class="contact-value">6383027552</span>
+                                </div>
+                            </a>
+
+                            <!-- Email -->
+                            <a href="mailto:sekarbarath2004@gmail.com" class="contact-method-item">
+                                <div class="contact-icon-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label">Email Me</span>
+                                    <span class="contact-value">sekarbarath2004@gmail.com</span>
+                                </div>
+                            </a>
+
+                            <!-- Address -->
+                            <div class="contact-method-item">
+                                <div class="contact-icon-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label">Location</span>
+                                    <span class="contact-value">Villupuram,TamilNadu,605602</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Social Icons -->
+                        <div class="social-links-wrapper">
+                            <h4>Social Links</h4>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/barath-s-43988336a" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                                </a>
+                                <a href="https://github.com/sekarbarath2004-web" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                                </a>
+                                <a href="mailto:sekarbarath2004@gmail.com" class="social-icon" aria-label="Direct Email">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                                </a>
+                                <a href="tel:6383027552" class="social-icon" aria-label="Direct Call">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81 7A2 2 0 0 1 22 16.92z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-card glass-card reveal">
+                        <h3>Send a Message</h3>
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="form-name">Name</label>
+                                <input type="text" id="form-name" name="name" required placeholder="John Doe">
+                                <span class="error-msg" id="name-error">Name is required</span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="form-email">Email</label>
+                                <input type="email" id="form-email" name="email" required placeholder="john.doe@example.com">
+                                <span class="error-msg" id="email-error">Please enter a valid email address</span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <textarea id="form-message" name="message" rows="5" required placeholder="Hi Barath, I'd like to talk about..."></textarea>
+                                <span class="error-msg" id="message-error">Message must be at least 10 characters long</span>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                <span class="btn-text">Send Message</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                            </button>
+                        </form>
+                        
+                        <div class="form-success-box" id="form-success">
+                            <div class="success-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </div>
+                            <h3>Thank You!</h3>
+                            <p>Your message has been sent successfully. I will get back to you shortly.</p>
+                            <button class="btn btn-outline" id="btn-reset-form">Send another message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <span class="logo-icon">&lt;Bk&gt;</span> Barath S
+            </div>
+            <p class="footer-copy">Copyright &copy; 2026 Barath S. All Rights Reserved.</p>
+            <p class="footer-tech">Built with HTML, CSS, & JavaScript</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to Top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+    </button>
+
+    <!-- JavaScript Source -->
+    <script src="script.js"></script>
+</body>
+</html>
